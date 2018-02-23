@@ -1,3 +1,7 @@
+require './lib/museum'
+require './lib/artist'
+require './lib/photograph'
+
 class Curator
 
   attr_reader :artists,
